@@ -1,0 +1,171 @@
+body {
+  background-color: ##000000;
+}
+
+
+
+#circleSVG {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+#circleSVG:hover {
+  fill: red;
+  opacity: .5;
+  transform: scale(5);
+}
+
+
+#SVGLogo {
+  width: 500px;
+  display: block;
+}
+
+
+#Background {
+  /* display: none; */
+}
+
+
+#S {
+  animation: cfade 5.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+
+#M {
+  animation: tfade 5.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+#I {
+  animation: kfade 5.0s;
+  transform-origin: right top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+
+#L {
+  animation: cfade 5.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+
+#E {
+  animation: tfade 5.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+#T {
+  animation: kfade 5.0s;
+  transform-origin: right top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+
+#O {
+  animation: cfade 5.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+
+#D {
+  animation: tfade 5.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+#A {
+  animation: kfade 5.0s;
+  transform-origin: right top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+
+
+#Y {
+  animation: cfade 5.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+
+#Equals {
+  animation: tfade 5.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+#D2 {
+  animation: kfade 5.0s;
+  transform-origin: right top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  200% { transform: scale(1.0);}
+}
+
+
+
+
+
+#SVGCTK {
+  width: 500px;
+  display: block;
+  transition: transform .50s linear;
+  transform-origin: left top;
+}
+
+#SMILE:hover {
+  transform: scale(1.1);
+}
